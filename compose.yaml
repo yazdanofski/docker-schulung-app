@@ -1,5 +1,6 @@
 services:
   hugo-app:
+    image: ghcr.io/pgglaum/docker-shulung-app:main
     build:
       context: .
       dockerfile: Dockerfile
