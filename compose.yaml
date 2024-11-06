@@ -1,0 +1,8 @@
+services:
+  hugo-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hugo-app
+    ports:
+      - 7080:80

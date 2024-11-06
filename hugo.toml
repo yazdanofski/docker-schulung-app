@@ -1,0 +1,4 @@
+baseURL = 'https://app.local/'
+languageCode = 'en-us'
+title = 'Hugo Test Site'
+theme = 'ananke'
